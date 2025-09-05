@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a73d74a-4a06-4234-9dbe-68c7a20774bb">
+  <producedTypes>
+    <objectType typeId="8ce59831-1284-422c-9a26-9489dc6fa308" valueTypeId="f4783524-1ec2-4bbe-b012-94a6b2f78f1a"/>
+    <refType typeId="5d082770-cb06-42e6-99db-90c1d9cd7d36" valueTypeId="3b67e18f-1ae3-4862-975d-bdd79b63d982"/>
+    <selectionType typeId="48a9a851-4aae-4013-bcf5-fc1ff1a00efe" valueTypeId="81411a81-5842-4cf5-888a-94a4178fb8e7"/>
+    <listType typeId="5af2d1d8-df09-4ce5-a08a-732550de0203" valueTypeId="f191c7d8-b2ca-4467-bd9b-d6e4ab3e66b0"/>
+    <managerType typeId="84ec0943-435e-49be-847f-250d8799ba54" valueTypeId="d4428ff5-21e1-4e45-a308-ad6d6af4047f"/>
+  </producedTypes>
+  <name>ВКМ_ФизическиеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Физические лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_ФизическиеЛица.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_ФизическиеЛица.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Физическое лицо</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="86108821-fec4-4f75-bae7-8c998d15d0cb">
+    <name>Категория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВКМ_КатегорияФизическогоЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0f91a878-41e4-44aa-885a-e1147c55ebd7">
+    <name>Уволен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уволен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

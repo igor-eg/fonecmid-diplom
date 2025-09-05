@@ -8,4 +8,12 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Enum.ВидыДоговоровКонтрагентов</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>Catalog.ВКМ_ФизическиеЛица</content>
+  <content>Enum.ВКМ_КатегорияФизическогоЛица</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеОбслуживаниеКлиента</content>
 </mdclass:Subsystem>

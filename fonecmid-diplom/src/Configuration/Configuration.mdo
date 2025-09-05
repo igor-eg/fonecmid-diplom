@@ -50,6 +50,8 @@
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты</subsystems>
+  <subsystems>Subsystem.ВКМ_ОбслуживаниеКлиентов</subsystems>
+  <subsystems>Subsystem.ВКМ_РасчетУправленческойЗарплаты</subsystems>
   <subsystems>Subsystem.Деньги</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.ПокупкиИПродажи</subsystems>
@@ -575,18 +577,19 @@
   <roles>Role.Администрирование</roles>
   <roles>Role.БазоваяФункциональностьТП</roles>
   <roles>Role.БазовыеПраваБСП</roles>
-  <roles>Role.ДобавлениеИзменениеДокументовПокупки</roles>
   <roles>Role.БазовыеПраваВнешнихПользователейБСП</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеОбслуживаниеКлиента</roles>
   <roles>Role.ВыводНаПринтерФайлБуферОбмена</roles>
   <roles>Role.ДобавлениеИзменениеВариантовОтчетов</roles>
   <roles>Role.ДобавлениеИзменениеВидовКонтактнойИнформации</roles>
   <roles>Role.ДобавлениеИзменениеВнешнихПользователей</roles>
+  <roles>Role.ДобавлениеИзменениеДокументовПокупки</roles>
   <roles>Role.ДобавлениеИзменениеДокументовПродажи</roles>
-  <roles>Role.ДобавлениеИзменениеКонтрагентов</roles>
   <roles>Role.ДобавлениеИзменениеДополнительныхОтчетовИОбработок</roles>
   <roles>Role.ДобавлениеИзменениеДополнительныхРеквизитовИСведений</roles>
-  <roles>Role.ДобавлениеИзменениеНСИ</roles>
+  <roles>Role.ДобавлениеИзменениеКонтрагентов</roles>
   <roles>Role.ДобавлениеИзменениеЛичныхВариантовОтчетов</roles>
+  <roles>Role.ДобавлениеИзменениеНСИ</roles>
   <roles>Role.ДобавлениеИзменениеПапокИФайлов</roles>
   <roles>Role.ДобавлениеИзменениеПапокИФайловВнешнимиПользователями</roles>
   <roles>Role.ДобавлениеИзменениеПользователей</roles>
@@ -1175,6 +1178,8 @@
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВерсииФайлов</catalogs>
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
+  <catalogs>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ВКМ_ФизическиеЛица</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
   <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
   <catalogs>Catalog.ГруппыДоступа</catalogs>
@@ -1214,6 +1219,7 @@
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
+  <documents>Document.ВКМ_ОбслуживаниеКлиента</documents>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>
@@ -1230,6 +1236,7 @@
   <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
   <enums>Enum.ВидыСвойств</enums>
+  <enums>Enum.ВКМ_КатегорияФизическогоЛица</enums>
   <enums>Enum.ДействияСФайламиПоДвойномуЩелчку</enums>
   <enums>Enum.ДополнительныеЗначенияДоступа</enums>
   <enums>Enum.ДоступныеПериодыОтчета</enums>
@@ -1373,6 +1380,8 @@
   <informationRegisters>InformationRegister.УдаляемыеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПокупателей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПоставщикам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Затраты</accumulationRegisters>
