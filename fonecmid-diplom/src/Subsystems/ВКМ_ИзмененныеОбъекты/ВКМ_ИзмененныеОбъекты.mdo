@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ece89d27-f69c-44e7-9698-dcd775cfb2e8">
+  <name>ВКМ_ИзмененныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ измененные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.РеализацияТоваровУслуг</content>
+</mdclass:Subsystem>
