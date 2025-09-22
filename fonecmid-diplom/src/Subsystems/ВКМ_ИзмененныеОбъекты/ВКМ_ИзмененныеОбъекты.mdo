@@ -8,4 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.РеализацияТоваровУслуг</content>
+  <content>CommonModule.УправлениеДоступомПереопределяемый</content>
 </mdclass:Subsystem>
