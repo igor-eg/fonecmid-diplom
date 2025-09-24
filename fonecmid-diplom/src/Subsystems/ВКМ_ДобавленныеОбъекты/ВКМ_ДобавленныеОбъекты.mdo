@@ -29,4 +29,26 @@
   <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
   <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
   <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>Catalog.ВКМ_ГрафикиРаботы</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеГрафиковРаботы</content>
+  <content>CommonCommand.ВКМ_ЗаполнитьГрафикиРаботы</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>Role.ВКМ_ДобавлениеИзмененияДокументовНачисления</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДанныхСотрудников</content>
+  <content>Role.ВКМ_РаботаСОтчетомВыработкаСпециалистов</content>
+  <content>Document.ВКМ_НачислениеЗаработнойПлаты</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Role.ВКМ_РаботаСОтчетомРасчетыССотрудниками</content>
+  <content>AccumulationRegister.ВКМ_ГрафикОтпусков</content>
+  <content>Role.ВКМ_РаботаСОтчетомРасходЗапланированныхОтпусков</content>
+  <content>Document.ВКМ_НачислениеФиксированныхПремий</content>
+  <content>Constant.ВКМ_НДФЛ</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>Constant.ВКМ_МаксимальноеЧислоДнейОтпуска</content>
+  <content>Role.ВКМ_ПодсистемаРасчетУправленческойЗарплаты</content>
 </mdclass:Subsystem>

@@ -17,4 +17,5 @@
   <content>ScheduledJob.ВКМ_ОтправитьСообщенияВТелеграмм</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>Role.ВКМ_РаботаСОбработкойМассовоеСозданиеАктов</content>
+  <content>Role.ВКМ_РаботаСОтчетомВыработкаСпециалистов</content>
 </mdclass:Subsystem>
