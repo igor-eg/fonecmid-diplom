@@ -18,4 +18,8 @@
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>Role.ВКМ_РаботаСОбработкойМассовоеСозданиеАктов</content>
   <content>Role.ВКМ_РаботаСОтчетомВыработкаСпециалистов</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Role.ВКМ_РаботаСОтчетомАнализВыставленныхАктов</content>
+  <content>AccumulationRegister.ВКМ_ВыставленныеЗаРаботыАкты</content>
 </mdclass:Subsystem>

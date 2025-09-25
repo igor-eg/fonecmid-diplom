@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75c47cd6-88ac-4dc7-b5e6-66779602475c">
+  <producedTypes>
+    <selectionType typeId="59e6b6df-8efd-4cf0-85cf-597d76190fe8" valueTypeId="5880118e-5188-4a0d-b48c-53ee5ff42eb0"/>
+    <listType typeId="588de9d4-30df-43dd-8740-3ca06ad950ce" valueTypeId="92b02a44-2b7c-4070-b589-353444a77e8d"/>
+    <managerType typeId="651cc0b9-a47f-4b72-b366-fb24654dfab8" valueTypeId="4b5e717d-d99c-4d34-9efc-3d31c36b9c9b"/>
+    <recordSetType typeId="9c49c4df-57bf-490b-87ab-57833a3c6a23" valueTypeId="c5b2c9b8-edea-4cb6-b328-191678310a78"/>
+    <recordKeyType typeId="d9853f84-eb58-49ec-8fc9-41cf1e603517" valueTypeId="37fcd84b-08a4-4951-9704-a1af8605dbfc"/>
+    <recordType typeId="1377b6f3-03e2-4bf8-9a04-e4df58189b33" valueTypeId="9c62d386-a111-499f-8ef0-a0d88b350e22"/>
+  </producedTypes>
+  <name>ВКМ_ВыставленныеЗаРаботыАкты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выставленные за работы акты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="a2015b8d-4d69-4896-bda3-38f083e7bc4e">
+    <name>СуммаРаботыСпециалиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма работы специалиста</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="da285f3e-0564-4230-b563-953ad11880cc">
+    <name>СуммаАбонентскаяПлата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма абонентская плата</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="ef2695d5-d88c-4bbf-bae2-7eb3e2c55c90">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="8cb9c2d9-1d30-4ecd-9fd1-9ad727e203f5">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -584,8 +584,10 @@
   <roles>Role.ВКМ_ДобавлениеИзменениеДанныхСотрудников</roles>
   <roles>Role.ВКМ_ДобавлениеИзменениеОбслуживаниеКлиента</roles>
   <roles>Role.ВКМ_ДобавлениеИзмененияДокументовНачисления</roles>
+  <roles>Role.ВКМ_ПодсистемаОбслуживаниеКлиентов</roles>
   <roles>Role.ВКМ_ПодсистемаРасчетУправленческойЗарплаты</roles>
   <roles>Role.ВКМ_РаботаСОбработкойМассовоеСозданиеАктов</roles>
+  <roles>Role.ВКМ_РаботаСОтчетомАнализВыставленныхАктов</roles>
   <roles>Role.ВКМ_РаботаСОтчетомВыработкаСпециалистов</roles>
   <roles>Role.ВКМ_РаботаСОтчетомРасходЗапланированныхОтпусков</roles>
   <roles>Role.ВКМ_РаботаСОтчетомРасчетыССотрудниками</roles>
@@ -1300,6 +1302,10 @@
   <enums>Enum.ЦветностиИзображения</enums>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
+  <reports>Report.ВКМ_АнализВыставленныхАктов</reports>
+  <reports>Report.ВКМ_ВыработкаСпециалистов</reports>
+  <reports>Report.ВКМ_РасходЗапланированныхОтпусков</reports>
+  <reports>Report.ВКМ_РасчетыССотрудниками</reports>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.ЗадолженностьПокупателей</reports>
   <reports>Report.ЗадолженностьПоставщикам</reports>
@@ -1413,6 +1419,7 @@
   <accumulationRegisters>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_ВыставленныеЗаРаботыАкты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ГрафикОтпусков</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПокупателей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПоставщикам</accumulationRegisters>

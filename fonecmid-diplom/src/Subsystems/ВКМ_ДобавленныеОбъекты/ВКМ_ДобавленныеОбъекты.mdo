@@ -51,4 +51,10 @@
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>Constant.ВКМ_МаксимальноеЧислоДнейОтпуска</content>
   <content>Role.ВКМ_ПодсистемаРасчетУправленческойЗарплаты</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Role.ВКМ_РаботаСОтчетомАнализВыставленныхАктов</content>
+  <content>AccumulationRegister.ВКМ_ВыставленныеЗаРаботыАкты</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
 </mdclass:Subsystem>

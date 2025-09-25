@@ -4,9 +4,9 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Report.ВКМ_РасходЗапланированныхОтпусков</name>
+		<name>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</name>
 		<right>
-			<name>Use</name>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -15,9 +15,9 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ВКМ_ГрафикОтпусков</name>
+		<name>Report.ВКМ_АнализВыставленныхАктов</name>
 		<right>
-			<name>Read</name>
+			<name>Use</name>
 			<value>true</value>
 		</right>
 		<right>

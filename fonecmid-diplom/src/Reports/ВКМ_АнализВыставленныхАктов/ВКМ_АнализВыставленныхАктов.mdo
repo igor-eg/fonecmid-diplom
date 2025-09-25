@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3dc54929-90c4-41de-be02-1c8976cd8a6b">
+  <producedTypes>
+    <objectType typeId="8a32d53c-672d-4cb2-8d73-4c594d5c92fc" valueTypeId="be576201-7e67-47df-baf5-1b263b2506c6"/>
+    <managerType typeId="8199ab10-1000-401b-bfa4-f69456eeab0e" valueTypeId="eac2013d-163d-4e99-b381-cf7b7f686b51"/>
+  </producedTypes>
+  <name>ВКМ_АнализВыставленныхАктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ выставленных актов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВКМ_АнализВыставленныхАктов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="5e614a7d-aea3-47fa-a2ff-8d8f632f38aa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
