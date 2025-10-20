@@ -33,6 +33,7 @@
     </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
   </attributes>
   <tabularSections uuid="ac886080-ca9e-4109-92a5-f846f84837d7">
     <producedTypes>
@@ -55,6 +56,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="ed81d1ab-fec1-41a8-8626-50c76fa89086">
       <name>РеализацияТоваровИУслуг</name>
@@ -67,6 +69,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="caebda79-67b6-469f-a1e8-622e83971b53">
       <name>СозданОбработкой</name>
@@ -79,6 +82,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
   <forms uuid="74c91079-5ee6-4d29-b3af-80b193f39727">

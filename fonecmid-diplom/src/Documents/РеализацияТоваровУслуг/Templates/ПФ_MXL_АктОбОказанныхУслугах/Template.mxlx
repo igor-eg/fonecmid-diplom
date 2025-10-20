@@ -12,25 +12,25 @@
 	<columns>
 		<size>15</size>
 		<columnsItem>
-			<index>8</index>
+			<index>0</index>
 			<column>
 				<formatIndex>1</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>0</index>
+			<index>8</index>
 			<column>
 				<formatIndex>2</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>14</index>
+			<index>13</index>
 			<column>
 				<formatIndex>3</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>13</index>
+			<index>14</index>
 			<column>
 				<formatIndex>4</formatIndex>
 			</column>
@@ -1313,16 +1313,16 @@
 	<font faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
-		<width>229</width>
-	</format>
-	<format>
 		<width>26</width>
 	</format>
 	<format>
-		<width>117</width>
+		<width>229</width>
 	</format>
 	<format>
 		<width>1</width>
+	</format>
+	<format>
+		<width>117</width>
 	</format>
 	<format>
 		<font>0</font>

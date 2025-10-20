@@ -11,7 +11,7 @@
   <name>ВКМ_ГрафикОтпусков</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ график отпусков</value>
+    <value>График отпусков</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>

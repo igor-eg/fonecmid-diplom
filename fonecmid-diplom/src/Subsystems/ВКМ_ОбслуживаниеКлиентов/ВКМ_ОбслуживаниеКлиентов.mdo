@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5157988a-38ed-44f8-9105-a011eb351a66">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5157988a-38ed-44f8-9105-a011eb351a66">
   <name>ВКМ_ОбслуживаниеКлиентов</name>
   <synonym>
     <key>ru</key>
@@ -7,6 +7,9 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.User</picture>
+  </picture>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>Role.ВКМ_ДобавлениеИзменениеОбслуживаниеКлиента</content>
@@ -22,4 +25,5 @@
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
   <content>Role.ВКМ_РаботаСОтчетомАнализВыставленныхАктов</content>
   <content>AccumulationRegister.ВКМ_ВыставленныеЗаРаботыАкты</content>
+  <content>Constant.ВКМ_ТаймаутСоединения</content>
 </mdclass:Subsystem>

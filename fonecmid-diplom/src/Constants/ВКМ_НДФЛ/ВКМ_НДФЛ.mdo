@@ -17,7 +17,6 @@
       <scale>2</scale>
     </numberQualifiers>
   </type>
-  <useStandardCommands>true</useStandardCommands>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

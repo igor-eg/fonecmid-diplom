@@ -57,4 +57,5 @@
   <content>AccumulationRegister.ВКМ_ВыставленныеЗаРаботыАкты</content>
   <content>Report.ВКМ_РасчетыССотрудниками</content>
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Constant.ВКМ_ТаймаутСоединения</content>
 </mdclass:Subsystem>
