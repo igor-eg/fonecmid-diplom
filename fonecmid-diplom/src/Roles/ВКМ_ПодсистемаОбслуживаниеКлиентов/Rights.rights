@@ -4,7 +4,7 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Subsystem.ВКМ_ОбслуживаниеКлиентов</name>
+		<name>Subsystem.ВКМ_РаботаСЗаявкамиКлиентов</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

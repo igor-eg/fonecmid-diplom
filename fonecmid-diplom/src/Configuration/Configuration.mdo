@@ -51,7 +51,7 @@
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты</subsystems>
   <subsystems>Subsystem.ВКМ_ИзмененныеОбъекты</subsystems>
-  <subsystems>Subsystem.ВКМ_ОбслуживаниеКлиентов</subsystems>
+  <subsystems>Subsystem.ВКМ_РаботаСЗаявкамиКлиентов</subsystems>
   <subsystems>Subsystem.ВКМ_РасчетУправленческойЗарплаты</subsystems>
   <subsystems>Subsystem.Деньги</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
@@ -1073,7 +1073,6 @@
   <constants>Constant.ВКМ_НДФЛ</constants>
   <constants>Constant.ВКМ_НоменклатураАбонентскаяПлата</constants>
   <constants>Constant.ВКМ_НоменклатураРаботыСпециалиста</constants>
-  <constants>Constant.ВКМ_ТаймаутСоединения</constants>
   <constants>Constant.ВКМ_ТокенУправленияТелеграмБотом</constants>
   <constants>Constant.ВыполнятьЗамерыПроизводительности</constants>
   <constants>Constant.ГлавныйУзел</constants>
@@ -1138,6 +1137,7 @@
   <constants>Constant.УдалитьНастройкиВходаПользователей</constants>
   <constants>Constant.УчетнаяЗаписьДляВосстановленияПароля</constants>
   <constants>Constant.ХранитьФайлыВТомахНаДиске</constants>
+  <constants>Constant.ВКМ_ТаймаутСоединения</constants>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
@@ -1265,7 +1265,6 @@
   <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
   <enums>Enum.ВидыСвойств</enums>
-  <enums>Enum.ВКМ_КатегорияФизическогоЛица</enums>
   <enums>Enum.ДействияСФайламиПоДвойномуЩелчку</enums>
   <enums>Enum.ДополнительныеЗначенияДоступа</enums>
   <enums>Enum.ДоступныеПериодыОтчета</enums>
@@ -1301,12 +1300,9 @@
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветаСвойств</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <enums>Enum.ВКМ_КатегорияФизическогоЛица</enums>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
-  <reports>Report.ВКМ_АнализВыставленныхАктов</reports>
-  <reports>Report.ВКМ_ВыработкаСпециалистов</reports>
-  <reports>Report.ВКМ_РасходЗапланированныхОтпусков</reports>
-  <reports>Report.ВКМ_РасчетыССотрудниками</reports>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.ЗадолженностьПокупателей</reports>
   <reports>Report.ЗадолженностьПоставщикам</reports>
@@ -1320,6 +1316,10 @@
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
+  <reports>Report.ВКМ_ВыработкаСпециалистов</reports>
+  <reports>Report.ВКМ_РасчетыССотрудниками</reports>
+  <reports>Report.ВКМ_АнализВыставленныхАктов</reports>
+  <reports>Report.ВКМ_РасходЗапланированныхОтпусков</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы</dataProcessors>

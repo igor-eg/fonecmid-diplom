@@ -16,7 +16,7 @@
     <subsystems>Subsystem.Администрирование</subsystems>
     <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты</subsystems>
     <subsystems>Subsystem.ВКМ_ИзмененныеОбъекты</subsystems>
-    <subsystems>Subsystem.ВКМ_ОбслуживаниеКлиентов</subsystems>
+    <subsystems>Subsystem.ВКМ_РаботаСЗаявкамиКлиентов</subsystems>
     <subsystems>Subsystem.ВКМ_РасчетУправленческойЗарплаты</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>
